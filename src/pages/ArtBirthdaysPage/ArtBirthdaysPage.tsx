@@ -5,7 +5,7 @@ import { Footer } from '../../components/Organisms/Footer/Footer';
 import { PicDesc } from '../../components/Organisms/PicDesc/PicDesc';
 import { WideSlider } from '../../components/Organisms/WideSlider/WideSlider';
 
-export const AboutPage: React.FC = () => {
+export const ArtBirthdaysPage: React.FC = () => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
   useEffect(() => {

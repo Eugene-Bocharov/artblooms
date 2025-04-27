@@ -18,57 +18,41 @@ const HideOnScroll: React.FC<HeaderProps> = ({ children }) => {
 
 export const Header: React.FC = () => {
   const [showDropdown, setShowDropdown] = useState(false);
-  const [isArtClassesOpen, setIsArtClassesOpen] = useState(false);
 
   return (
     <div className={styles.header}>
       <HideOnScroll>
-        <AppBar
-          position="fixed"
-          className={`${styles.appBar} ${styles.fullWidthMenu}`}
-        >
+        <AppBar position="fixed" className={styles.appBar}>
           <Toolbar className={styles.toolbar}>
             <div className={styles.logo}></div>
-            <div
-              className={styles.navLinks}
-              style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}
-            >
+            <div className={styles.navLinks}>
               <HeaderLink text="Home" href="/" />
               <HeaderLink text="About" href="/about" />
-              <HeaderLink text="Studio" href="/studio" />
               <div
                 className={styles.dropdownContainer}
                 onMouseEnter={() => setShowDropdown(true)}
                 onMouseLeave={() => setShowDropdown(false)}
               >
-                <HeaderLink text="Art Classes" href="/interior" />
+                <HeaderLink text="Services" href="/interior" />
                 <div
                   className={`${styles.arrow} ${showDropdown ? styles.arrowOpen : ''}`}
                 />
                 {showDropdown && (
                   <div className={styles.dropdown}>
+                    <HeaderLink text="Exterior Finishings" href="/exterior" />
+                    <HeaderLink text="New Construction" href="/newconstr" />
+                    <HeaderLink text="Roofing & Other" href="/roofing" />
                     <HeaderLink
-                      text="Art Classes for Children"
-                      href="/art-classes-children"
+                      text="Additions & Remodeling"
+                      href="/additions"
                     />
-                    <HeaderLink
-                      text="Art Classes for Adults"
-                      href="/art-classes-adults"
-                    />
-                    <HeaderLink
-                      text="Art Classes for Adolescents"
-                      href="/art-classes-adolescents"
-                    />
-                    <HeaderLink text="Prices" href="/prices" />
                   </div>
                 )}
               </div>
-              <HeaderLink text="Workshops" href="/workshops" />
-              <HeaderLink text="Events" href="/events" />
-              <HeaderLink text="Art Birthdays" href="/art-birthdays" />
-              <HeaderLink text="Trial Classes" href="/trial-classes" />
-              <HeaderLink text="Careers" href="/careers" />
-              <HeaderLink text="Enroll Now" href="/enroll-now" />
+
+              <HeaderLink text="Projects" href="/projects" />
+              <HeaderLink text="Testimonials" href="/testimonials" />
+              <HeaderLink text="Contact" href="/contact" />
             </div>
           </Toolbar>
         </AppBar>

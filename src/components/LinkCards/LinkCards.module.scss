@@ -1,0 +1,111 @@
+.linkCardsContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 32px;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.card {
+  // border: 1px solid #ccc;
+
+  padding: 16px;
+  max-width: 300px;
+  text-align: center;
+  // box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.cardImage {
+  width: 100%;
+  height: auto;
+}
+
+.cardTitle {
+  font-size: 1.25rem;
+  margin: 12px 0;
+}
+
+.cardText {
+  font-size: 1rem;
+  color: #555;
+}
+
+.cardLink {
+  display: inline-block;
+  margin-top: 8px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.cardLink:hover {
+  text-decoration: underline;
+}
+
+.cardSingle {
+  width: 260px;
+  background: #fff;
+  // border: 1.5px solid #e5e5e5;
+
+  // box-shadow: 0 4px 16px rgba(0, 0, 0, 0.07);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.cardImageSingle {
+  width: 100%;
+  height: 360px;
+  object-fit: cover;
+  border-radius: 0;
+}
+
+.cardContentSingle {
+  padding: 18px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.cardTitleSingle {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin: 0 0 8px 0;
+  color: #222;
+}
+
+.cardTextSingle {
+  font-size: 1rem;
+  color: #222;
+  margin: 0 0 12px 0;
+}
+
+.cardLinkSingle {
+  font-size: 1rem;
+  color: #111;
+  text-decoration: none;
+  font-weight: normal;
+  margin-top: 8px;
+  align-self: flex-start;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: color 0.2s;
+}
+
+.cardLinkSingle:hover {
+  color: #7a4fff;
+  text-decoration: underline;
+}
+
+.arrow {
+  font-size: 1.1em;
+  margin-left: 2px;
+}

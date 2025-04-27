@@ -1,0 +1,74 @@
+.sliderContainer {
+  display: flex;
+  margin: 100px auto;
+  justify-content: center; // Center the slider horizontally
+  width: 80vw; // Take up 80% of the viewport width
+  // margin: 20px auto; // Add some top/bottom margin and center the container
+}
+
+.splide {
+  width: 100%; // Let Splide take the full width of the container
+}
+
+.slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageWrapper {
+  width: 80%; // Image wrapper takes 80% of the slide's width
+  overflow: hidden; // Clip any overflowing content (like during transitions)
+  border-radius: 8px; // Optional: Add some rounded corners to the image area
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); // Optional: Add a subtle shadow
+}
+
+.image {
+  display: block;
+  width: 100%; // Image takes the full width of its wrapper
+  max-height: 500px;
+  height: auto;
+}
+
+/* You can add more styles here to make it look "pretty" */
+
+/* Example for styling the arrows (you might need to adjust based on Splide's structure) */
+.splide__arrows {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  transform: translateY(-50%);
+}
+
+.splide__arrow {
+  background: rgba(255, 255, 255, 0.7);
+  color: #333;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+
+  &:hover {
+    opacity: 1;
+  }
+
+  svg {
+    fill: currentColor;
+  }
+}
+
+.splide__arrow--prev {
+  left: 10px;
+}
+
+.splide__arrow--next {
+  right: 10px;
+}
