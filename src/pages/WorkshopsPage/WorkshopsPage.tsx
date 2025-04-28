@@ -19,11 +19,12 @@ export const WorkshopsPage: React.FC = () => {
     };
   }, []);
 
-  const cards = [
+  const cardsTop = [
     {
       image:
         'https://images.unsplash.com/photo-1611244419377-b0a760c19719?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      title: 'Creative Watercolor Workshop',
+      title: 'Watercolor Workshop',
+      description: 'Learn watercolor techniques in a fun, hands-on class.',
       details: [
         {
           smallTitle: 'Date',
@@ -33,13 +34,14 @@ export const WorkshopsPage: React.FC = () => {
           link: '#',
         },
       ],
-      description:
-        'Daria Schieferstein ’11 is an accomplished attorney at Kramer Levin Naftalis & Frankel, LLP in New York. Daria Schieferstein ’11 is an accomplished attorney at Kramer Levin Naftalis & Frankel, LLP in New York. ',
+      link: '#',
+      button: true,
     },
     {
       image:
         'https://images.unsplash.com/photo-1611244419377-b0a760c19719?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      title: 'Creative Watercolor Workshop',
+      title: 'Watercolor Workshop',
+      description: 'Learn watercolor techniques in a fun, hands-on class.',
       details: [
         {
           smallTitle: 'Date',
@@ -49,40 +51,39 @@ export const WorkshopsPage: React.FC = () => {
           link: '#',
         },
       ],
-      description:
-        'Daria Schieferstein ’11 is an accomplished attorney at Kramer Levin Naftalis & Frankel, LLP in New York. Daria Schieferstein ’11 is an accomplished attorney at Kramer Levin Naftalis & Frankel, LLP in New York. ',
+      link: '#',
+      button: true,
+    },
+  ];
+
+  const cardsBottom = [
+    {
+      image:
+        'https://images.unsplash.com/photo-1611244419377-b0a760c19719?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      title: 'Sketching Basics',
+      description: 'A perfect start for those who want to learn sketching.',
+      link: '#',
     },
     {
       image:
         'https://images.unsplash.com/photo-1611244419377-b0a760c19719?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      title: 'Creative Watercolor Workshop',
-      details: [
-        {
-          smallTitle: 'Date',
-          name: 'May 10',
-          cost: '$50',
-          spots: 10,
-          link: '#',
-        },
-      ],
-      description:
-        'Daria Schieferstein ’11 is an accomplished attorney at Kramer Levin Naftalis & Frankel, LLP in New York. Daria Schieferstein ’11 is an accomplished attorney at Kramer Levin Naftalis & Frankel, LLP in New York. ',
+      title: 'Sketching Basics',
+      description: 'A perfect start for those who want to learn sketching.',
+      link: '#',
     },
     {
       image:
         'https://images.unsplash.com/photo-1611244419377-b0a760c19719?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      title: 'Creative Watercolor Workshop',
-      details: [
-        {
-          smallTitle: 'Date',
-          name: 'May 10',
-          cost: '$50',
-          spots: 10,
-          link: '#',
-        },
-      ],
-      description:
-        'Daria Schieferstein ’11 is an accomplished attorney at Kramer Levin Naftalis & Frankel, LLP in New York. Daria Schieferstein ’11 is an accomplished attorney at Kramer Levin Naftalis & Frankel, LLP in New York. ',
+      title: 'Sketching Basics',
+      description: 'A perfect start for those who want to learn sketching.',
+      link: '#',
+    },
+    {
+      image:
+        'https://images.unsplash.com/photo-1611244419377-b0a760c19719?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      title: 'Sketching Basics',
+      description: 'A perfect start for those who want to learn sketching.',
+      link: '#',
     },
   ];
 
@@ -90,7 +91,8 @@ export const WorkshopsPage: React.FC = () => {
     <>
       {windowWidth <= 1100 ? <HeaderMob /> : <Header />}
       <h1>Workshops</h1>
-      <ClassDescCard cards={cards} />
+      <ClassDescCard title="Upcoming" cards={cardsTop} />
+      <ClassDescCard title="Last" cards={cardsBottom} />
       <Footer />
     </>
   );

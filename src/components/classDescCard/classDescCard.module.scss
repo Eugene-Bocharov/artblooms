@@ -14,7 +14,12 @@
     padding: 12px;
   }
 }
-
+.container {
+  margin-top: 100px;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
 .classInfoContainer {
   background-color: #fff;
   border-radius: 0;
@@ -102,16 +107,15 @@
 
 .link {
   display: inline-block;
-//   padding: 10px 15px;
+  //   padding: 10px 15px;
   text-decoration: none;
   color: #fff;
   background-color: #007bff;
   border-radius: 6px;
   font-weight: bold;
   transition: background-color 0.3s ease;
-
-  &:hover {
-    background-color: #0056b3;
+  :hover {
+    color: #000;
   }
 }
 
@@ -131,5 +135,11 @@
   box-shadow: 0 2px 8px rgba(107, 142, 35, 0.08);
   &:hover {
     background-color: #55751a;
+  }
+}
+
+a {
+  :hover {
+    color: #000;
   }
 }

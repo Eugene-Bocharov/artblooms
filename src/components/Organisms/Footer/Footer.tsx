@@ -6,12 +6,7 @@ export const Footer = () => {
     <>
       <div className={styles.container}>
         <div className={styles.midContainer}>
-          <div className={styles.titleBox}>
-            <div className={styles.logoImgBox}>
-              <div className={styles.logoImg}></div>
-            </div>
-            <h1 className={styles.logoTitle}>Bring Your Vision into Reality</h1>
-          </div>
+          <h1 className={styles.logoTitle}>ArtBlooms</h1>
           <div className={styles.dividerBox}>
             <div className={styles.collumn}>
               <p className={styles.subTitle}>Services</p>

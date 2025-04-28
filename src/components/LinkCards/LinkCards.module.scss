@@ -1,13 +1,18 @@
 .linkCardsContainer {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
   gap: 32px;
   justify-content: center;
   align-items: flex-start;
   width: 100%;
+  justify-items: center;
 }
-
+.container {
+  margin-top: 100px;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
 .card {
   // border: 1px solid #ccc;
 
@@ -108,4 +113,30 @@
 .arrow {
   font-size: 1.1em;
   margin-left: 2px;
+}
+
+.linkCardsTitle {
+  font-size: 45px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 1500px) {
+  .linkCardsContainer {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 28px;
+  }
+  .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 700px) {
+  .linkCardsContainer {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  .container {
+    width: 100%;
+  }
 }

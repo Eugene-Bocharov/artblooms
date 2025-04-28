@@ -80,7 +80,7 @@ export const Homepage: React.FC = () => {
       <TestimonialsComponent />
       <LinkCards cards={exampleCards} />
       <Partners title="" pic={photos.partner} />
-      <Title title="Ready to work with us ?" link="/contact" />
+      {/* <Title title="Ready to work with us ?" link="/contact" /> */}
       <Footer />
     </>
   );

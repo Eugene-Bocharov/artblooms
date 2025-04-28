@@ -45,83 +45,41 @@ export const ArtClassesChildrenPage: React.FC = () => {
     {
       image:
         'https://images.unsplash.com/photo-1611244419377-b0a760c19719?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      title: 'Tuesday',
+      title: 'Monday',
       details: [
         {
           smallTitle: '16:00-17:00',
-          name: 'Teens Art Class',
-          cost: '$60',
-          spots: 5,
+          name: 'Children Art Class',
+          cost: '$50',
+          spots: 6,
           link: '#',
         },
         {
           smallTitle: '17:00-18:00',
-          name: 'Teens Art Class',
-          cost: '$70',
-          spots: 3,
-          link: '#',
-        },
-      ],
-    },
-    {
-      image:
-        'https://images.unsplash.com/photo-1611244419377-b0a760c19719?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      title: 'Wednesday',
-      details: [
-        {
-          smallTitle: '16:00-17:00',
-          name: 'Adults Art Class',
-          cost: '$90',
-          spots: 2,
-          link: '#',
-        },
-        {
-          smallTitle: '17:00-18:00',
-          name: 'Adults Art Class',
-          cost: '$100',
-          spots: 1,
-          link: '#',
-        },
-      ],
-    },
-    {
-      image:
-        'https://images.unsplash.com/photo-1611244419377-b0a760c19719?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      title: 'Thursday',
-      details: [
-        {
-          smallTitle: '16:00-17:00',
-          name: 'Advanced Art Class',
-          cost: '$120',
-          spots: 3,
-          link: '#',
-        },
-        {
-          smallTitle: '17:00-18:00',
-          name: 'Advanced Art Class',
-          cost: '$130',
-          spots: 2,
-          link: '#',
-        },
-      ],
-    },
-    {
-      image:
-        'https://images.unsplash.com/photo-1611244419377-b0a760c19719?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      title: 'Friday',
-      details: [
-        {
-          smallTitle: '16:00-17:00',
-          name: 'Weekend Art Class',
-          cost: '$140',
+          name: 'Children Art Class',
+          cost: '$80',
           spots: 4,
           link: '#',
         },
+      ],
+    },
+    {
+      image:
+        'https://images.unsplash.com/photo-1611244419377-b0a760c19719?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      title: 'Monday',
+      details: [
+        {
+          smallTitle: '16:00-17:00',
+          name: 'Children Art Class',
+          cost: '$50',
+          spots: 6,
+          link: '#',
+        },
         {
           smallTitle: '17:00-18:00',
-          name: 'Weekend Art Class',
-          cost: '$150',
-          spots: 3,
+          name: 'Children Art Class',
+          cost: '$80',
+          spots: 4,
           link: '#',
         },
       ],
@@ -129,20 +87,83 @@ export const ArtClassesChildrenPage: React.FC = () => {
     {
       image:
         'https://images.unsplash.com/photo-1611244419377-b0a760c19719?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      title: 'Saturday',
+      title: 'Monday',
       details: [
         {
           smallTitle: '16:00-17:00',
-          name: 'Special Art Class',
-          cost: '$160',
-          spots: 2,
+          name: 'Children Art Class',
+          cost: '$50',
+          spots: 6,
           link: '#',
         },
         {
           smallTitle: '17:00-18:00',
-          name: 'Special Art Class',
-          cost: '$170',
-          spots: 1,
+          name: 'Children Art Class',
+          cost: '$80',
+          spots: 4,
+          link: '#',
+        },
+      ],
+    },
+    {
+      image:
+        'https://images.unsplash.com/photo-1611244419377-b0a760c19719?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      title: 'Monday',
+      details: [
+        {
+          smallTitle: '16:00-17:00',
+          name: 'Children Art Class',
+          cost: '$50',
+          spots: 6,
+          link: '#',
+        },
+        {
+          smallTitle: '17:00-18:00',
+          name: 'Children Art Class',
+          cost: '$80',
+          spots: 4,
+          link: '#',
+        },
+      ],
+    },
+    {
+      image:
+        'https://images.unsplash.com/photo-1611244419377-b0a760c19719?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      title: 'Monday',
+      details: [
+        {
+          smallTitle: '16:00-17:00',
+          name: 'Children Art Class',
+          cost: '$50',
+          spots: 6,
+          link: '#',
+        },
+        {
+          smallTitle: '17:00-18:00',
+          name: 'Children Art Class',
+          cost: '$80',
+          spots: 4,
+          link: '#',
+        },
+      ],
+    },
+    {
+      image:
+        'https://images.unsplash.com/photo-1611244419377-b0a760c19719?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      title: 'Monday',
+      details: [
+        {
+          smallTitle: '16:00-17:00',
+          name: 'Children Art Class',
+          cost: '$50',
+          spots: 6,
+          link: '#',
+        },
+        {
+          smallTitle: '17:00-18:00',
+          name: 'Children Art Class',
+          cost: '$80',
+          spots: 4,
           link: '#',
         },
       ],
@@ -189,8 +210,8 @@ export const ArtClassesChildrenPage: React.FC = () => {
     <>
       {windowWidth <= 1100 ? <HeaderMob /> : <Header />}
       <h1>Art Classes for Children</h1>
-      <ClassInfo cards={exampleCards} />
-      <LinkCards cards={exampleCardss} />
+      <ClassInfo title="Classes" cards={exampleCards} />
+      <LinkCards title="Teachers" cards={exampleCardss} />
       <Footer />
     </>
   );
