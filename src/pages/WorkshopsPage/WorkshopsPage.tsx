@@ -31,10 +31,10 @@ export const WorkshopsPage: React.FC = () => {
           name: 'May 10',
           cost: '$50',
           spots: 10,
-          link: '#',
+          link: 'https://square.link/u/FgnQU3yP?src=embed',
         },
       ],
-      link: '#',
+      link: 'https://square.link/u/FgnQU3yP?src=embed',
       button: true,
     },
     {
@@ -51,7 +51,7 @@ export const WorkshopsPage: React.FC = () => {
           link: '#',
         },
       ],
-      link: '#',
+      link: 'https://square.link/u/FgnQU3yP?src=embed',
       button: true,
     },
   ];
