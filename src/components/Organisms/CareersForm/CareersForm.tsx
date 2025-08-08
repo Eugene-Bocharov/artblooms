@@ -72,6 +72,9 @@ export const WorkerFormComp: React.FC = () => {
 
   return (
     <div className={styles.container} id="form">
+      <h2 className={styles.formTitle} style={{ textAlign: 'left' }}>
+        Form
+      </h2>
       <form className={styles.form} onSubmit={handleSubmit}>
         {/* First Row */}
         <div className={styles.row}>

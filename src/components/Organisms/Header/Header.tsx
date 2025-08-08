@@ -41,7 +41,7 @@ export const Header: React.FC = () => {
                 onMouseEnter={() => setShowDropdown(true)}
                 onMouseLeave={() => setShowDropdown(false)}
               >
-                <HeaderLink text="Art Classes" href="/interior" />
+                <HeaderLink text="Art Classes" href="#" />
                 <div
                   className={`${styles.arrow} ${showDropdown ? styles.arrowOpen : ''}`}
                 />
@@ -68,7 +68,7 @@ export const Header: React.FC = () => {
               <HeaderLink text="Art Birthdays" href="/art-birthdays" />
               <HeaderLink text="Trial Classes" href="/trial-classes" />
               <HeaderLink text="Careers" href="/careers" />
-              <HeaderLink text="Enroll Now" href="/enroll-now" />
+              <HeaderLink text="Get in Touch" href="/enroll-now" />
             </div>
           </Toolbar>
         </AppBar>

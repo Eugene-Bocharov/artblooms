@@ -12,7 +12,7 @@ import { DarkText } from '../../components/Organisms/DarkText/DarkText';
 import { DarkTitleDesk } from '../../components/Organisms/DarkTitleDesc/DarkTitleDesc';
 import { ServiceDesc } from '../../components/Organisms/ServiceDesc/ServiceDesc';
 import { Footer } from '../../components/Organisms/Footer/Footer';
-
+import { PopUpForm } from '../../components/Organisms/PopUpForm/PopUpForm';
 import { photos } from '../../static/serviceExp';
 import { Partners } from '../../components/Organisms/Partners/Partners';
 import { StatsSection } from '../../components/Organisms/StatsSection/StatsSection';
@@ -38,8 +38,8 @@ export const Homepage: React.FC = () => {
     {
       image:
         'https://images.unsplash.com/photo-1623853434105-8e7a72898180?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHBlcnNvbiUyMHBvcnRyYWl0JTIwYmxhY2slMjBhbmQlMjB3aGl0ZXxlbnwwfDF8MHx8fDA%3D',
-      title: 'Daria Schiefferstien',
-      text: 'Daria Schieferstein ’11 is an accomplished attorney at Kramer Levin Naftalis & Frankel, LLP in New York. Daria recently took time out from her busy schedule to reflect on her journey from the halls of Ross School to the courtrooms of Manhattan.',
+      title: 'Maude',
+      text: 'Maude is an interdisciplinary artist living and creating in Montreal. With extensive experience in childrens art education and many years spent studying art in school, Maude brings a breadth of knowledge to each class. Her approach to teaching is constructive, aiming to meet children where they are in terms of skill level and interest. In her personal art practice, Maude is interested in bright colors and symbolism inspired by Christian iconography.',
       link: '/link1',
     },
     {
@@ -78,8 +78,9 @@ export const Homepage: React.FC = () => {
       <HomeWelc />
       <StatsSection />
       <TestimonialsComponent />
-      <LinkCards cards={exampleCards} />
-      <Partners title="" pic={photos.partner} />
+      <LinkCards title="Teachers" cards={exampleCards} />
+      <Partners title="Our Partners" pic={photos.partner} />
+      <PopUpForm />
       {/* <Title title="Ready to work with us ?" link="/contact" /> */}
       <Footer />
     </>

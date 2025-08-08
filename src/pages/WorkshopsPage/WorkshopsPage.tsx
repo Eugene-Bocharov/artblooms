@@ -21,10 +21,10 @@ export const WorkshopsPage: React.FC = () => {
 
   const cardsTop = [
     {
-      image:
-        'https://images.unsplash.com/photo-1611244419377-b0a760c19719?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      image: require('../../static/ClassImage1.png'),
       title: 'Watercolor Workshop',
-      description: 'Learn watercolor techniques in a fun, hands-on class.',
+      description:
+        'Daria Schieferstein ’11 is an accomplished attorney at Kramer Levin Naftalis & Frankel, LLP in New York. Daria Schieferstein ’11 is an accomplished attorney at Kramer Levin Naftalis & Frankel, LLP in New York. ',
       details: [
         {
           smallTitle: 'Date',
@@ -38,10 +38,10 @@ export const WorkshopsPage: React.FC = () => {
       button: true,
     },
     {
-      image:
-        'https://images.unsplash.com/photo-1611244419377-b0a760c19719?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      image: require('../../static/ClassImage2.png'),
       title: 'Watercolor Workshop',
-      description: 'Learn watercolor techniques in a fun, hands-on class.',
+      description:
+        'Daria Schieferstein ’11 is an accomplished attorney at Kramer Levin Naftalis & Frankel, LLP in New York. Daria Schieferstein ’11 is an accomplished attorney at Kramer Levin Naftalis & Frankel, LLP in New York. ',
       details: [
         {
           smallTitle: 'Date',
@@ -58,31 +58,31 @@ export const WorkshopsPage: React.FC = () => {
 
   const cardsBottom = [
     {
-      image:
-        'https://images.unsplash.com/photo-1611244419377-b0a760c19719?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      title: 'Sketching Basics',
-      description: 'A perfect start for those who want to learn sketching.',
+      image: require('../../static/ClassImage1.png'),
+      title: 'Daria Schiefferstien',
+      description:
+        'Daria Schieferstein ’11 is an accomplished attorney at Kramer Levin Naftalis & Frankel, LLP in New York. Daria recently took time out from her busy schedule to reflect on her journey from the halls of Ross School to the courtrooms of Manhattan.',
       link: '#',
     },
     {
-      image:
-        'https://images.unsplash.com/photo-1611244419377-b0a760c19719?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      title: 'Sketching Basics',
-      description: 'A perfect start for those who want to learn sketching.',
+      image: require('../../static/ClassImage2.png'),
+      title: 'Daria Schiefferstien',
+      description:
+        'Daria Schieferstein ’11 is an accomplished attorney at Kramer Levin Naftalis & Frankel, LLP in New York. Daria recently took time out from her busy schedule to reflect on her journey from the halls of Ross School to the courtrooms of Manhattan.',
       link: '#',
     },
     {
-      image:
-        'https://images.unsplash.com/photo-1611244419377-b0a760c19719?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      title: 'Sketching Basics',
-      description: 'A perfect start for those who want to learn sketching.',
+      image: require('../../static/ClassImage1.png'),
+      title: 'Daria Schiefferstien',
+      description:
+        'Daria Schieferstein ’11 is an accomplished attorney at Kramer Levin Naftalis & Frankel, LLP in New York. Daria recently took time out from her busy schedule to reflect on her journey from the halls of Ross School to the courtrooms of Manhattan.',
       link: '#',
     },
     {
-      image:
-        'https://images.unsplash.com/photo-1611244419377-b0a760c19719?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      title: 'Sketching Basics',
-      description: 'A perfect start for those who want to learn sketching.',
+      image: require('../../static/ClassImage2.png'),
+      title: 'Daria Schiefferstien',
+      description:
+        'Daria Schieferstein ’11 is an accomplished attorney at Kramer Levin Naftalis & Frankel, LLP in New York. Daria recently took time out from her busy schedule to reflect on her journey from the halls of Ross School to the courtrooms of Manhattan.',
       link: '#',
     },
   ];

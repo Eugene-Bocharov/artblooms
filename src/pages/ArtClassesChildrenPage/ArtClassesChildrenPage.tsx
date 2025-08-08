@@ -4,6 +4,15 @@ import { HeaderMob } from '../../components/Organisms/HeaderMob/HeaderMob';
 import { Footer } from '../../components/Organisms/Footer/Footer';
 import { ClassInfo } from '../../components/ClassInfo/ClassInfo';
 import { LinkCards } from '../../components/LinkCards/LinkCards';
+import ClassImage1 from '../../static/ClassImage1.png';
+import ClassImage2 from '../../static/ClassImage2.png';
+import ClassImage3 from '../../static/ClassImage3.png';
+import ClassImage4 from '../../static/ClassImage4.png';
+import ClassImage5 from '../../static/ClassImage5.jpeg';
+import ClassImage6 from '../../static/ClassImage6.jpeg';
+import ClassImage7 from '../../static/ClassImage7.jpeg';
+
+import ClassImage8 from '../../static/ClassImage8.jpeg';
 
 export const ArtClassesChildrenPage: React.FC = () => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -22,149 +31,142 @@ export const ArtClassesChildrenPage: React.FC = () => {
 
   const exampleCards = [
     {
-      image:
-        'https://images.unsplash.com/photo-1611244419377-b0a760c19719?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      image: ClassImage1,
       title: 'Monday',
       details: [
         {
-          smallTitle: '16:00-17:00',
+          smallTitle: '15.45-17.00',
           name: 'Children Art Class',
-          cost: '$50',
-          spots: 6,
-          link: '#',
+          cost: '$225 for 10 classes',
+          spots: '2.5 months',
+          link: 'https://square.link/u/FgnQU3yP?src=embed',
         },
         {
-          smallTitle: '17:00-18:00',
+          smallTitle: '17.15-18.30',
           name: 'Children Art Class',
-          cost: '$80',
-          spots: 4,
-          link: '#',
+          cost: '$225 for 10 classes',
+          spots: '2.5 months',
+          link: 'https://square.link/u/FgnQU3yP?src=embed',
         },
       ],
     },
     {
-      image:
-        'https://images.unsplash.com/photo-1611244419377-b0a760c19719?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      title: 'Monday',
+      image: ClassImage5,
+      title: 'Tuesday',
       details: [
         {
-          smallTitle: '16:00-17:00',
+          smallTitle: '15.45-17.00',
           name: 'Children Art Class',
-          cost: '$50',
-          spots: 6,
-          link: '#',
+          cost: '$225 for 10 classes',
+          spots: '2.5 months',
+          link: 'https://square.link/u/FgnQU3yP?src=embed',
         },
         {
-          smallTitle: '17:00-18:00',
+          smallTitle: '17.15-18.30',
           name: 'Children Art Class',
-          cost: '$80',
-          spots: 4,
-          link: '#',
+          cost: '$225 for 10 classes',
+          spots: '2.5 months',
+          link: 'https://square.link/u/FgnQU3yP?src=embed',
         },
       ],
     },
     {
-      image:
-        'https://images.unsplash.com/photo-1611244419377-b0a760c19719?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      title: 'Monday',
+      image: ClassImage6,
+      title: 'Wednesday',
       details: [
         {
-          smallTitle: '16:00-17:00',
+          smallTitle: '15.45-17.00',
           name: 'Children Art Class',
-          cost: '$50',
-          spots: 6,
-          link: '#',
+          cost: '$225 for 10 classes',
+          spots: '2.5 months',
+          link: 'https://square.link/u/FgnQU3yP?src=embed',
         },
         {
-          smallTitle: '17:00-18:00',
+          smallTitle: '17.15-18.30',
           name: 'Children Art Class',
-          cost: '$80',
-          spots: 4,
-          link: '#',
+          cost: '$225 for 10 classes',
+          spots: '2.5 months',
+          link: 'https://square.link/u/FgnQU3yP?src=embed',
         },
       ],
     },
     {
-      image:
-        'https://images.unsplash.com/photo-1611244419377-b0a760c19719?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      title: 'Monday',
+      image: ClassImage4,
+      title: 'Thursday',
       details: [
         {
-          smallTitle: '16:00-17:00',
+          smallTitle: '15.45-17.00',
           name: 'Children Art Class',
-          cost: '$50',
-          spots: 6,
-          link: '#',
+          cost: '$225 for 10 classes',
+          spots: '2.5 months',
+          link: 'https://square.link/u/FgnQU3yP?src=embed',
         },
         {
-          smallTitle: '17:00-18:00',
+          smallTitle: '17.15-18.30',
           name: 'Children Art Class',
-          cost: '$80',
-          spots: 4,
-          link: '#',
+          cost: '$225 for 10 classes',
+          spots: '2.5 months',
+          link: 'https://square.link/u/FgnQU3yP?src=embed',
         },
       ],
     },
     {
-      image:
-        'https://images.unsplash.com/photo-1611244419377-b0a760c19719?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      title: 'Monday',
+      image: ClassImage7,
+      title: 'Friday',
       details: [
         {
-          smallTitle: '16:00-17:00',
+          smallTitle: '15.45-17.00',
           name: 'Children Art Class',
-          cost: '$50',
-          spots: 6,
-          link: '#',
+          cost: '$225 for 10 classes',
+          spots: '2.5 months',
+          link: 'https://square.link/u/FgnQU3yP?src=embed',
         },
         {
-          smallTitle: '17:00-18:00',
+          smallTitle: '17.15-18.30',
           name: 'Children Art Class',
-          cost: '$80',
-          spots: 4,
-          link: '#',
+          cost: '$225 for 10 classes',
+          spots: '2.5 months',
+          link: 'https://square.link/u/FgnQU3yP?src=embed',
         },
       ],
     },
     {
-      image:
-        'https://images.unsplash.com/photo-1611244419377-b0a760c19719?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      title: 'Monday',
+      image: ClassImage2,
+      title: 'Saturday',
       details: [
         {
-          smallTitle: '16:00-17:00',
+          smallTitle: '10.30-11.45',
           name: 'Children Art Class',
-          cost: '$50',
-          spots: 6,
-          link: '#',
+          cost: '$225 for 10 classes',
+          spots: '2.5 months',
+          link: 'https://square.link/u/FgnQU3yP?src=embed',
         },
         {
-          smallTitle: '17:00-18:00',
+          smallTitle: '12.00-13.15',
           name: 'Children Art Class',
-          cost: '$80',
-          spots: 4,
-          link: '#',
+          cost: '$225 for 10 classes',
+          spots: '2.5 months',
+          link: 'https://square.link/u/FgnQU3yP?src=embed',
         },
       ],
     },
     {
-      image:
-        'https://images.unsplash.com/photo-1611244419377-b0a760c19719?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      title: 'Monday',
+      image: ClassImage8,
+      title: 'Sunday',
       details: [
         {
-          smallTitle: '16:00-17:00',
+          smallTitle: '10.30-11.45',
           name: 'Children Art Class',
-          cost: '$50',
-          spots: 6,
-          link: '#',
+          cost: '$225 for 10 classes',
+          spots: '2.5 months',
+          link: 'https://square.link/u/FgnQU3yP?src=embed',
         },
         {
-          smallTitle: '17:00-18:00',
+          smallTitle: '12.00-13.15',
           name: 'Children Art Class',
-          cost: '$80',
-          spots: 4,
-          link: '#',
+          cost: '$225 for 10 classes',
+          spots: '2.5 months',
+          link: 'https://square.link/u/FgnQU3yP?src=embed',
         },
       ],
     },

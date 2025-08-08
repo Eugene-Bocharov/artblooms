@@ -54,6 +54,8 @@ export const ClassDescCard: React.FC<ClassDescCardProps> = ({
                 ))}
               </ul>
             )}
+            {/* Divider line after details */}
+            <div className={styles.dividerLine} />
             {card.description && (
               <p className={styles.description}>{card.description}</p>
             )}

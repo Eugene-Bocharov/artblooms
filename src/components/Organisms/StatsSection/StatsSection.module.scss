@@ -10,25 +10,39 @@
 .statCard {
   background: white;
   border: 2px solid #000000;
-  border-radius: 1rem;
-  padding: 2rem;
-
-  min-width: 350px;
+  border-radius: 16px;
+  padding: 4.5rem;
+  min-width: 320px;
+  min-height: 320px;
+  max-width: 340px;
+  max-height: 340px;
+  aspect-ratio: 1 / 1;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  // box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+  justify-content: center;
 }
 
 .iconContainer {
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   color: #1a1a1a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 140px;
+  height: 140px;
 
   svg {
     width: 32px;
     height: 32px;
   }
+}
+
+.iconContainer img {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
 }
 
 .value {
@@ -43,6 +57,58 @@
   font-size: 1rem;
   color: #4b5563;
   font-weight: 500;
+}
+
+@media (max-width: 900px) {
+  .statCard {
+    min-width: 180px;
+    min-height: 180px;
+    max-width: 200px;
+    max-height: 200px;
+    padding: 2rem;
+  }
+  .iconContainer {
+    width: 60px;
+    height: 60px;
+  }
+  .iconContainer img {
+    width: 48px;
+    height: 48px;
+  }
+  .value {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .statsContainer {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+    padding: 1rem;
+  }
+  .statCard {
+    min-width: 90vw;
+    min-height: 90vw;
+    max-width: 95vw;
+    max-height: 95vw;
+    padding: 1.2rem;
+  }
+  .iconContainer {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 1.2rem;
+  }
+  .iconContainer img {
+    width: 100px;
+    height: 100px;
+  }
+  .value {
+    font-size: 2.2rem;
+  }
+  .label {
+    font-size: 1.3rem;
+  }
 }
 
 @media (max-width: 768px) {

@@ -8,7 +8,7 @@ type ClassInfoCard = {
     smallTitle: string;
     name: string;
     cost: string;
-    spots: number;
+    spots: number | string;
     link: string;
   }>;
 };
@@ -38,9 +38,13 @@ export const ClassInfo: React.FC<ClassInfoProps> = ({ cards, title }) => {
                   </div>
                   <div className={styles.detailFooter}>
                     <span className={styles.cost}>{detail.cost}</span>
-                    <span className={styles.spots}>
-                      {detail.spots} spots available
-                    </span>
+                    {typeof detail.spots === 'number' ? (
+                      <span className={styles.spots}>
+                        {detail.spots} spots available
+                      </span>
+                    ) : (
+                      <span className={styles.spots}>{detail.spots}</span>
+                    )}
                   </div>
                 </li>
               ))}

@@ -1,0 +1,84 @@
+.container {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media (max-width: 1250px) {
+    width: 80%;
+  }
+}
+
+.form {
+  background-color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  @media (max-width: 780px) {
+    flex-direction: column;
+  }
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  width: 30%; /* Keep this for three inputs per row */
+  margin-bottom: 20px;
+
+  @media (max-width: 780px) {
+    width: 100%; /* Stacks inputs on small screens */
+  }
+}
+
+/* Keep the text area on a new row */
+.fieldTextArea {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.inputName {
+  margin-bottom: 10px;
+  font-weight: bold;
+  display: block;
+}
+
+.input,
+.textArea {
+  width: 100%;
+  padding: 8px 20px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  box-sizing: border-box;
+  font-size: 16px;
+  height: 45px;
+  background-color: #fff;
+}
+
+.textArea {
+  height: 150px;
+  padding-top: 15px;
+  font-size: 15px;
+}
+
+.submitBtn {
+  width: 280px;
+  margin: 20px auto 0;
+  padding: 10px;
+  background-color: #515739;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  height: 45px;
+  font-size: 20px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.status {
+  margin-top: 15px;
+  font-weight: bold;
+  text-align: center;
+}

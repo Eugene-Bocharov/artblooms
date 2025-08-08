@@ -30,7 +30,13 @@ export const CareersPage: React.FC = () => {
       </h1>
       <TitleDesc
         title="Our Prices"
-        description="Whether you are looking to renovate your home, build a new commercial space, or enhance the aesthetic appeal of your property, we are dedicated to transforming spaces into functional, beautiful environments."
+        description="At Art Blooms Club, we are always looking for passionate and talented art educators to join our dynamic team. If you are an experienced instructor with a love for nurturing creativity and guiding students of all ages, we would love to hear from you.
+
+We believe in the power of art to inspire and transform, and we are constantly seeking individuals who share this vision and have the skills to bring out the best in our students. Whether you specialize in painting, drawing, sculpture, or other artistic disciplines, we encourage you to reach out.
+
+Feel free to send us your CV and a brief introduction to your teaching experience. We are always open to connecting with new, creative individuals who are eager to be part of our vibrant community.
+
+Apply today and help us inspire the next generation of artists at Art Blooms Club!"
       />
       <WorkerFormComp />
       <Footer />

@@ -25,7 +25,7 @@ export const PricesPage: React.FC = () => {
       <h1>Prices</h1>
       <TitleDesc
         title="Our Prices"
-        description="Whether you are looking to renovate your home, build a new commercial space, or enhance the aesthetic appeal of your property, we are dedicated to transforming spaces into functional, beautiful environments."
+        description="At Art Blooms Club, we strive to make our courses accessible while offering excellent value for a high-quality artistic experience. Each course consists of 10 classes, and a full session costs $225+tax. This includes expert guidance, all necessary materials, and a supportive, creative environment where you can truly explore your artistic potential. Join us and take the next step in your artistic journey!"
       />
       <Footer />
     </>

@@ -22,18 +22,8 @@ const importImages = (
 
 // Adjust counts based on the highest-numbered image you have
 export const photos = {
-  extr: importImages('extr', 50), // Adjust number based on how many images exist
-  intr: importImages('intr', 50),
-  hae: importImages('hae', 50),
-  nc: importImages('nc', 50),
   partner: importImages('partner', 50),
-  rof: importImages('rof', 50, ['jpg', 'jpeg', 'png', 'webp']), // Includes webp
-  main: [require('./main_1.png')],
   logoh: [require('./logoh2.png')],
   logod: [require('./logod3.png')],
   welc: [require('./welcImg3.jpg')],
 };
-
-// Example usage:
-console.log(photos.extr[1]); // Access extr_2.jpg
-console.log(photos.intr[5]); // Access intr_6.jpg

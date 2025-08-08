@@ -4,6 +4,11 @@ import { HeaderMob } from '../../components/Organisms/HeaderMob/HeaderMob';
 import { Footer } from '../../components/Organisms/Footer/Footer';
 import { ClassInfo } from '../../components/ClassInfo/ClassInfo';
 import { LinkCards } from '../../components/LinkCards/LinkCards';
+import ClassImage1 from '../../static/ClassImage1.png';
+import ClassImage2 from '../../static/ClassImage2.png';
+import ClassImage3 from '../../static/ClassImage3.png';
+import ClassImage4 from '../../static/ClassImage4.png';
+import { TitleDesc } from '../../components/Organisms/TitleDesc/TitleDesc';
 
 export const TrialClassesPage: React.FC = () => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -22,8 +27,7 @@ export const TrialClassesPage: React.FC = () => {
 
   const exampleCards = [
     {
-      image:
-        'https://images.unsplash.com/photo-1611244419377-b0a760c19719?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      image: ClassImage1,
       title: 'Monday',
       details: [
         {
@@ -43,9 +47,8 @@ export const TrialClassesPage: React.FC = () => {
       ],
     },
     {
-      image:
-        'https://images.unsplash.com/photo-1611244419377-b0a760c19719?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      title: 'Monday',
+      image: ClassImage2,
+      title: 'Tuesday',
       details: [
         {
           smallTitle: '16:00-17:00',
@@ -64,9 +67,8 @@ export const TrialClassesPage: React.FC = () => {
       ],
     },
     {
-      image:
-        'https://images.unsplash.com/photo-1611244419377-b0a760c19719?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      title: 'Monday',
+      image: ClassImage3,
+      title: 'Wednesday',
       details: [
         {
           smallTitle: '16:00-17:00',
@@ -85,9 +87,8 @@ export const TrialClassesPage: React.FC = () => {
       ],
     },
     {
-      image:
-        'https://images.unsplash.com/photo-1611244419377-b0a760c19719?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      title: 'Monday',
+      image: ClassImage4,
+      title: 'Thursday',
       details: [
         {
           smallTitle: '16:00-17:00',
@@ -106,9 +107,8 @@ export const TrialClassesPage: React.FC = () => {
       ],
     },
     {
-      image:
-        'https://images.unsplash.com/photo-1611244419377-b0a760c19719?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      title: 'Monday',
+      image: ClassImage1,
+      title: 'Friday',
       details: [
         {
           smallTitle: '16:00-17:00',
@@ -127,9 +127,8 @@ export const TrialClassesPage: React.FC = () => {
       ],
     },
     {
-      image:
-        'https://images.unsplash.com/photo-1611244419377-b0a760c19719?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      title: 'Monday',
+      image: ClassImage2,
+      title: 'Saturday',
       details: [
         {
           smallTitle: '16:00-17:00',
@@ -148,9 +147,8 @@ export const TrialClassesPage: React.FC = () => {
       ],
     },
     {
-      image:
-        'https://images.unsplash.com/photo-1611244419377-b0a760c19719?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      title: 'Monday',
+      image: ClassImage3,
+      title: 'Sunday',
       details: [
         {
           smallTitle: '16:00-17:00',
@@ -210,8 +208,21 @@ export const TrialClassesPage: React.FC = () => {
     <>
       {windowWidth <= 1100 ? <HeaderMob /> : <Header />}
       <h1>Art Classes for Children</h1>
-      <ClassInfo title="Classes" cards={exampleCards} />
+
       {/* <LinkCards title="Teachers" cards={exampleCardss} /> */}
+      <TitleDesc
+        title="Trial classes"
+        description="At Art Blooms Club, we are passionate about nurturing creativity and fostering artistic growth. We understand that choosing the right class is an important decision, which is why we offer a free trial class to allow you to experience our unique approach to teaching art firsthand. Whether you're an aspiring artist, looking to refine your skills, or simply exploring your creative side, our trial class provides an excellent opportunity to immerse yourself in the world of art without any commitment.
+
+During your free trial, you'll have the chance to engage in a guided session led by our experienced instructors, who are dedicated to providing personalized attention in a welcoming and inspiring environment. You’ll explore new techniques, express yourself through various mediums, and gain insight into the enriching artistic journey we offer at Art Blooms Club.
+
+Take the first step towards discovering your artistic potential in a space where creativity thrives. Register for your free trial class today, and begin your artistic adventure with us!
+
+schedule -
+
+please add all kids adolences amd adults - monday to saturday"
+      />
+      <ClassInfo title="Classes" cards={exampleCards} />
       <Footer />
     </>
   );

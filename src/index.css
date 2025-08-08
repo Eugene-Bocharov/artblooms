@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400..700&display=swap');
 
 * {
   box-sizing: border-box;
@@ -9,13 +9,13 @@ body {
   background-color: #ffffff;
   /* height: 10000px; */
   margin: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Domine', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 *::selection {
-  background-color: #DF4746; /* Set your desired background color */
+  background-color: #df4746; /* Set your desired background color */
   color: rgb(255, 255, 255); /* Set your desired text color */
   border-radius: 89px !important; /* Set the desired border radius value */
 }

@@ -7,7 +7,7 @@
 }
 
 .midContainer {
-  width: 80%;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -102,9 +102,11 @@
   max-width: 60%;
   font-weight: bold;
   margin-top: 70px;
-  // margin-left: 100px;
+  margin-right: 40px;
+  flex: 0 0 auto;
+
   @media (max-width: 1250px) {
-    display: none;
+    // display: none;
   }
 }
 
@@ -114,4 +116,53 @@
   background-size: cover;
   background-color: #fff;
   background-image: url('../../../static//logod3.png');
+}
+
+.footerRow {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  margin-top: 70px;
+}
+
+.footerEmailFormBox {
+  max-width: 600px;
+  width: 100%;
+  margin-top: 70px;
+  margin-left: 60px;
+  margin-right: 0;
+  display: flex;
+  align-items: center;
+  // background-color: #8b2525;
+  justify-content: flex-end;
+}
+
+.website {
+  color: #585858;
+  // font-size: large;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+@media (max-width: 900px) {
+  .footerRow {
+    flex-direction: column;
+    align-items: stretch;
+    margin-top: 40px;
+  }
+  .logoTitle {
+    margin-right: 0;
+    margin-bottom: 20px;
+    text-align: center;
+    max-width: 100%;
+    flex: 1 1 100%;
+  }
+  .footerEmailFormBox {
+    margin-left: 0;
+    margin-top: 0;
+    justify-content: center;
+    max-width: 100%;
+  }
 }

@@ -1,8 +1,8 @@
 .container {
-  padding: 4rem 2rem;
+  padding: 2rem 0.5rem;
   text-align: center;
   background-color: #fff;
-  width: 80%;
+  width: 90%;
   margin-right: auto;
   margin-left: auto;
 }
@@ -18,9 +18,9 @@
 }
 
 .title {
-  font-size: 2rem;
+  font-size: 45px;
   font-weight: bold;
-  margin-bottom: 10px;
+  margin-bottom: 50px;
 }
 
 .description {
@@ -29,35 +29,45 @@
 }
 
 .heading {
-  font-size: 2.5rem;
+  font-size: 45px;
   font-weight: bold;
-  margin-bottom: 3rem;
-  color: #000;
+  margin-bottom: 50px;
 }
 
 .testimonialsGrid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
-  // max-width: 80%;
+  grid-template-columns: 1fr;
+  gap: 1.2rem;
   margin: 0 auto;
 }
 
+@media (min-width: 600px) {
+  .testimonialsGrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .testimonialsGrid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+}
+
 .testimonialCard {
-  // background-color: #f9f9f9;
-  padding: 1.5rem;
+  padding: 1rem;
   border-radius: 8px;
-  // box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   text-align: left;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 200px;
+  min-height: 120px;
 }
 
 .quote {
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-style: italic;
   color: #4a4a4a;
   margin-bottom: 1rem;
@@ -65,7 +75,7 @@
 }
 
 .author {
-  font-size: 1rem;
+  font-size: 0.95rem;
   font-weight: bold;
   color: #8b0000;
 }

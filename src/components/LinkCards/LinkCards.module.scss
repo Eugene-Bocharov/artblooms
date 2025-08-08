@@ -106,8 +106,8 @@
 }
 
 .cardLinkSingle:hover {
-  color: #7a4fff;
-  text-decoration: underline;
+  color: #111;
+  text-decoration: none;
 }
 
 .arrow {
@@ -138,5 +138,8 @@
   }
   .container {
     width: 100%;
+  }
+  .linkCardsTitle {
+    margin-left: 25px;
   }
 }

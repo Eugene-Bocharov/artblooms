@@ -5,9 +5,9 @@ export const HomeWelc: React.FC = () => {
   return (
     <div className={styles.backgroundImage}>
       <div className={styles.overlay}>
-        <div className={styles.titleContainer}>
+        <div className={styles.titleContainer + ' ' + styles.leftAlign}>
           <h1 className={styles.title}>
-            Bring Your Vision into Reality with Us
+            ART BLOOMS CLUB <br /> ART FOR ALL AGES
           </h1>
         </div>
       </div>

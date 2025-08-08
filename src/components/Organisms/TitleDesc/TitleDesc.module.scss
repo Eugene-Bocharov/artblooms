@@ -5,14 +5,13 @@
   margin-right: auto;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
 }
 
 .title {
   font-size: 50px;
   color: #000000;
-  text-align: center;
+  text-align: left;
   max-width: 60%;
   font-weight: bold;
   @media (max-width: 1135px) {
@@ -30,14 +29,14 @@
   font-size: 22px;
   font-weight: 600;
   color: #535353;
-  text-align: center;
+  text-align: left;
+  line-height: 2.5rem;
   max-width: 80%;
   @media (max-width: 950px) {
     font-size: 19px;
     max-width: 100%;
   }
 }
-
 
 .divider {
   margin-top: 30px;

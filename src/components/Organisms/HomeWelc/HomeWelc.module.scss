@@ -199,7 +199,7 @@ a.scrollBtn:after {
 .backgroundImage {
   position: relative;
   width: 100%;
-  height: 100vh;
+  height: 102vh;
   background-image: url('../../../static//welcImg3.jpg'); /* Replace with actual image path */
   background-size: cover;
   background-position: center;
@@ -213,12 +213,18 @@ a.scrollBtn:after {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5); /* 50% transparent black overlay */
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+  padding-left: 5vw;
 }
 
 .titleContainer {
   text-align: center;
+}
+
+.titleContainer.leftAlign {
+  text-align: left;
+  margin-left: 5vw;
 }
 
 .title {

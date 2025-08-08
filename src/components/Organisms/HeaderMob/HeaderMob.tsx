@@ -77,7 +77,11 @@ export const HeaderMob = () => {
             <Toolbar className={styles.toolbar}>
               <div className={styles.incontainer}>
                 <div className={styles.divider}>
-                  <div className={styles.logocontainer}></div>
+                  <a
+                    href="/"
+                    className={styles.logocontainer}
+                    aria-label="Home"
+                  ></a>
                   <div className={styles.hamburgerContainer}>
                     <Hamburger
                       toggled={isMenuOpen}
@@ -114,7 +118,7 @@ export const HeaderMob = () => {
             <HeaderLinkMob text="Art Birthdays" href="/art-birthdays" />
             <HeaderLinkMob text="Trial Classes" href="/trial-classes" />
             <HeaderLinkMob text="Careers" href="/careers" />
-            <HeaderLinkMob text="Enroll Now" href="/enroll-now" />
+            <HeaderLinkMob text="Get in Touch" href="/enroll-now" />
           </div>
         </div>
       )}
